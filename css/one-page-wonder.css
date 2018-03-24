@@ -72,6 +72,7 @@ header.masthead .masthead-content .masthead-heading {
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 header.masthead .bg-circle {
@@ -120,6 +121,7 @@ header.masthead .bg-circle-4 {
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
