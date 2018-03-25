@@ -396,6 +396,14 @@ h6, .h6 {
   font-weight: 300;
 }
 
+.g1 {
+  margin: auto;
+  width=75%;
+  height=75%;
+  padding=10px;
+  border=3px solid rgba(0, 0, 0, 0.1);
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
