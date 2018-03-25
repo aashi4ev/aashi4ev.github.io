@@ -398,8 +398,9 @@ h6, .h6 {
 
 .g1 {
   margin: auto;
-  width=75%;
-  height=75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding=10px;
   border=3px solid rgba(0, 0, 0, 0.1);
 }
