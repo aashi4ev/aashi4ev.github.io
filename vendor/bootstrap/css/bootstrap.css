@@ -411,6 +411,7 @@ h6, .h6 {
   margin-left: auto;
   margin-right: auto;
   padding=10px;
+  font-size: 3rem;
 }
 
 .myhead {
@@ -422,7 +423,7 @@ h6, .h6 {
 
 .mycontent {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.3;
   padding=10px;
@@ -8774,6 +8775,7 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+  font-size: 3rem;
 }
 
 @media (min-width: 576px) {
