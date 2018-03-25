@@ -381,7 +381,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h3, .h3 {
@@ -411,7 +411,6 @@ h6, .h6 {
   margin-left: auto;
   margin-right: auto;
   padding=10px;
-  border=3px solid rgba(0, 0, 0, 0.1);
 }
 
 .myhead {
@@ -426,6 +425,7 @@ h6, .h6 {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.3;
+  padding=10px;
 }
 
 .display-1 {
