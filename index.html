@@ -67,12 +67,12 @@
             <br/>
             <!-- all code that created data visuals can be found in ../dispatchdata/dispatchvisuals.ipynb -->
             <img class="g1" src="img/station_time.png" alt="" height="550" width="900" align="middle">
-            <br/><br/>
+            <br/>
             <h0 class="text-center" align='center'> Excluding all outliers as determined by the displayed boxplots, the 43, 33, and 8 station areas have the longest dispatch times.</h0>
             <br/><br/>
             <!-- all code that created data visuals can be found in ../dispatchdata/dispatchvisuals.ipynb -->
             <img class="g1" src="img/zip_time.png" alt="" height="500" width="1050" align="middle">
-            <br/><br/>
+            <br/>
             <h0 class="text-center" align='center'>Again, excluding outliers, 94127, 94111, 94134, and 94105, take the longest to dispatch to. These dispatch times can be reduced by reassigning stations of low dispatch times and frequencies to the zipcodes that have greater dispatch times and high call frequencies.</h0>
           </div>
         </div>
@@ -88,29 +88,19 @@
               <!-- all code that created data visuals can be found in ../dispatchdata/dispatchvisuals.ipynb -->
               <br/><br/>
               <img class="g1" src="img/increase_zip.png" alt="" height="550" width="900" align="middle">
-              <br/><br/>
+              <br/>
               <h0 class="text-center" align='center'>The zip codes that must be attended to first are 94127 and 94104 - their call frequencies are over ten times the norm.</h0>
-              <br/><br/><br/><br/>
+              <br/><br/>
               <!-- all code that created data visuals can be found in ../dispatchdata/dispatchvisuals.ipynb -->
               <img class="g1" src="img/increase_box.png" alt="" height="600" width="1050" align="middle">
-              <br/><br/>
+              <br/>
               <h0 class="text-center" align='center'>Since the represented box areas of high increase in dispatch calls are of similar rates of increase, the units should tend to these box areas by their relative zip codes.</h0>
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <img class="g1" src="img/zip_type.png" alt="" height="500" width="150">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="g1" src="img/box_type.png" alt="" height="500" width="150">
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="p-5">
-              <p>These charts display the most common dispatch unit types in each zip code/box. Relative to their locations, these are the unit-types that should be prioritized during expansion.</p>
-            </div>
+          <img src="img/zip_type.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em" height="500" width="150">
+          <img src="img/box_type.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em" height="600" width="150">
+          <div class="p-5">
+            <p>These charts display the most common dispatch unit types in each zip code/box. Relative to their locations, these are the unit-types that should be prioritized during expansion.</p>
           </div>
         </div>
     </section>
