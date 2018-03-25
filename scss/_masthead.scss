@@ -15,7 +15,7 @@ header.masthead {
       font-size: 4rem;
     }
     .masthead-subheading {
-      font-size: 1rem;
+      font-size: 2rem;
     }
   }
   .bg-circle {
@@ -52,14 +52,14 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(20rem + 55px);
+    padding-bottom: 20rem;
     .masthead-content {
       .masthead-heading {
         font-size: 4rem;
       }
       .masthead-subheading {
-        font-size: 2rem;
+        font-size: 3rem;
       }
     }
   }
